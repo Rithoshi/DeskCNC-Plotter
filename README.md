@@ -9,7 +9,7 @@ Rapid fabrication of PCBs and general purpose plotting while letting a free way 
 
 # Design Evolution
 
-1.**Iteration #1: - Rack and Pinion Prototype**
+1. **Iteration #1: - Rack and Pinion Prototype**
 
 The initial concept focused on converting rotational motion to linear motion using a rack and pinion system
 
@@ -18,7 +18,7 @@ Technical Challenges: Encountered significant backlash, a few weight distributio
 Key Learning: In-depth study of gear geomtry, tooth spacing formulas and Cartesian coordinate movement<img width="1126" height="589" alt="image" src="https://github.com/user-attachments/assets/1960953d-dac6-4d46-8a85-d3ee85e7af39" />
 
 
-2.**Iteration #2: - GT2 belt & Pulley System**
+2. **Iteration #2: - GT2 belt & Pulley System**
 
 To address the footprint issues, the design transitioned to a "closed" system using GT2 timing belts
 
@@ -29,7 +29,7 @@ Stability: Bearings provided extra support for the weight of the Z-Axis servomot
 Simulation: Developed Motion Links in F360 to simulate logical motion withouth needing detailed belt teeth models.<img width="1126" height="583" alt="{1C4C08D7-590D-4E5C-9CCD-2F10C0A2FE47}" src="https://github.com/user-attachments/assets/71b5ac7a-ddec-40b5-b8f0-51b3deeaa7e6" />
 
 
-3.**Iteration #3: - Rod-Stabilized Design (Current)**
+3. **Iteration #3: - Rod-Stabilized Design (Current)**
 
 The final iteration focuses on weight distribution and structural rigidity.
 
