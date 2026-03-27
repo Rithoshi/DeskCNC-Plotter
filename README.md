@@ -15,7 +15,8 @@ The initial concept focused on converting rotational motion to linear motion usi
 
 Technical Challenges: Encountered significant backlash, a few weight distribution issues and excessive footprint expansion during the operation
 
-Key Learning: In-depth study of gear geomtry, tooth spacing formulas and Cartesian coordinate movement
+Key Learning: In-depth study of gear geomtry, tooth spacing formulas and Cartesian coordinate movement<img width="1126" height="589" alt="image" src="https://github.com/user-attachments/assets/1960953d-dac6-4d46-8a85-d3ee85e7af39" />
+
 
 2.**Iteration #2: - GT2 belt & Pulley System**
 
@@ -25,7 +26,8 @@ Optimization: Replaced the expanding racks with GT2 belts and pulleys while addi
 
 Stability: Bearings provided extra support for the weight of the Z-Axis servomotor and the Y-Axis stepper
 
-Simulation: Developed Motion Links in F360 to simulate logical motion withouth needing detailed belt teeth models.
+Simulation: Developed Motion Links in F360 to simulate logical motion withouth needing detailed belt teeth models.<img width="1126" height="583" alt="{1C4C08D7-590D-4E5C-9CCD-2F10C0A2FE47}" src="https://github.com/user-attachments/assets/71b5ac7a-ddec-40b5-b8f0-51b3deeaa7e6" />
+
 
 3.**Iteration #3: - Rod-Stabilized Design (Current)**
 
@@ -34,6 +36,8 @@ The final iteration focuses on weight distribution and structural rigidity.
 "Supported Beam" Solution: Transitioned from a cantilever-style structure to a supported beam system. By adding sliding rods, the weight is distributed across the entire work area rather tahn resting solely on the belts
 
 Efficiency: This configurationb mantains the original compact dimensions while drastically increasing stability and mobility
+<img width="1126" height="574" alt="image" src="https://github.com/user-attachments/assets/01186f15-b1a3-4327-8709-5a396b9f7503" />
+
 
 # Mechanical Sim & Math
 
@@ -47,9 +51,11 @@ Dc-(Belt Pitch) = 2mm
 M-(Total movement per 360° rev) = 24mm
 
 **Resolution Scaling**
--24mm = 360°
--12mm = 180°
--1mm = 15°
+1. 24mm = 360°
+2. 12mm = 180°
+3. 1mm = 15°
+
+<img width="476" height="464" alt="image" src="https://github.com/user-attachments/assets/806ee2fa-0b7a-4db3-b5e1-e8724ce602ce" />
 
 # Small Specifications
 
